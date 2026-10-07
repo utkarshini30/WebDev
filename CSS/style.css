@@ -1,0 +1,13 @@
+h1 {
+    font-size: 2.5em;
+    color: blue;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #a7aeaf;
+}
+p {
+    font-size: 1em;
+    line-height: 1.5;
+    color: #d809a5;
+}
