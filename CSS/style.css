@@ -4,10 +4,17 @@ h1 {
 }
 body {
     font-family: Arial, sans-serif;
-    background-color: #a7aeaf;
+    background-color: #e9edee;
 }
 p {
     font-size: 1em;
     line-height: 1.5;
     color: #d809a5;
+}
+#intro {
+    color:blue;
+
+} 
+#para{
+    color:blueviolet;
 }
