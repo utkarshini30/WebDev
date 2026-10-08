@@ -5,12 +5,13 @@ h1 {
 body {
     font-family: Arial, sans-serif;
     background-color: #e9edee;
+    margin: 20px
 }
 p {
     font-size: 1em;
     line-height: 1.5;
-    color: #0993d8!important;
-    border: 1px solid black;
+    color: #9705f8;
+    
 }
 .box{
     width: 100px;
@@ -24,8 +25,21 @@ p {
 }
 #intro {
     color:blue;
+    background-color:bisque;
 
 } 
 #para{
     color:blueviolet;
+     border: 1px solid black;
 }
+.css {
+    color: green;
+}
+div>p{
+    color:#e80a0a
+}
+html     { font-size: 16px; }   /* root */
+.parent  { font-size: 20px; }
+
+.em-text  { font-size: 2em; }   /* 2 × 20px (parent) = 40px */
+.rem-text { font-size: 2rem; }  /* 2 × 16px (root)   = 32px */
