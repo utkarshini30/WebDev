@@ -1,5 +1,5 @@
 h1 {
-    font-size: 2.5em;
+    font-size: 4em;
     color: blue;
 }
 body {
@@ -14,12 +14,12 @@ p {
     
 }
 .box{
-    width: 100px;
+    width: 200px;
     height: 100px;
-    background-color: #cdb7b7;
+    background-color: #ecd1d1;
     border: 1px solid #e80a0a;
     padding: 30px;
-    margin: 20px;
+    margin: 10px;
     box-sizing:border-box;
     box-shadow: 0 0 10px rgba(0,0,0,0.3);
 }
@@ -43,3 +43,27 @@ html     { font-size: 16px; }   /* root */
 
 .em-text  { font-size: 2em; }   /* 2 × 20px (parent) = 40px */
 .rem-text { font-size: 2rem; }  /* 2 × 16px (root)   = 32px */
+
+.container {
+    border: 5px solid black;
+    width:500px;
+    margin: 0 auto;
+    text-align: center;
+    border-style: double;
+
+    background: linear-gradient(to right , #ffcccc, #ccffff);
+
+    
+.italic-text  { font-style: italic; }
+
+.normal-text { font-weight: normal; }
+.bold-text   { font-weight: bold; }
+.bolder-text { font-weight: bolder; }
+}
+
+h1 {
+  font-family: "Great Vibes", cursive;
+  font-weight: 800;
+  font-style: normal;
+}
+
