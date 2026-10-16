@@ -1,17 +1,21 @@
 .container{
   display: flex;
-  flex-direction: column-reverse;
+  flex-direction: column;
   background-color: rgb(65, 132, 200);
+  flex-wrap:wrap;
+  height: 1700px;
+ }
+   
 
-}
-
-.container div {
+.container div{
   background-color: #d6db38;
   margin: 10px;
   padding:20px;
   text-align: center;  
   font-size: 30px;
+ 
+  height:100px;
+}
 
 
 
-  
