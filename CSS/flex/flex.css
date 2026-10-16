@@ -4,6 +4,7 @@
   background-color: rgb(65, 132, 200);
   flex-wrap:wrap;
   height: 1700px;
+  justify-content:space-between;
  }
    
 
