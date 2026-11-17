@@ -1,0 +1,20 @@
+.grid-container{
+    display: flex;
+    flex-direction: column-reverse;
+    justify-content: space-evenly;
+    height: 600px;
+    width:400px;
+    border: 1px solid #171817;
+    padding:10px 10px;
+}
+.grid-item{
+    background-color: #d14c4c;
+    border: 1px solid #101010;
+    padding: 10px;
+    text-align: center;
+    justify-content: space-evenly;
+
+    height: 50px;
+    width:50px;
+}
+   
