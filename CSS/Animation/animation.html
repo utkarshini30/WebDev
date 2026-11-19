@@ -5,22 +5,46 @@
 div {
   width: 100px;
   height: 100px;
-  background-color: red;
+  background-color:#ff75c3;
+  position: relative;
   animation-name: myAnimation;
   animation-duration: 4s;
+   transition: width 2s,rotate 2s;
 }
 
 @keyframes myAnimation {
+  0%   {background-color:#ff75c3;left:0px; top:0px;}
+  20%  {background-color:#ffa647; left:200px; top:0px;}
+  40%  {background-color:#ffe83f; left:200px; top:200px;}
+  60%  {background-color:#9fff5b; left:0px; top:200px;}
+  80% {background-color:#70e2ff; left:100px; top:500px;}
+ 100% {background-color:#cd93ff; left:0px; top:0px;}
+}
+div{transition-timing-function: linear;}
+
+div {
+  width: 100px;
+  height:100px;
+  background:#cd93ff;
+  rotate: 360deg;
+  border-radius: 50%;
+  transform: rotate(360deg);
+}
+
+/* @keyframes myAnimation {
   from {background-color: pink;}
   to {background-color: yellow;}
-}
+} */
 </style>
 </head>
 <body>
 
 <h1>CSS Animation</h1>
 
-<div></div>
+<div></div><br>
+<div></div><br>
+<div></div><br>
+
 
 <p><b>Note:</b> When an animation is finished, it goes back to its original style.</p>
 
